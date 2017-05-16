@@ -10,6 +10,7 @@ public class MyCalculatorTest {
 	
 	@Test public void testAdd()
 	{
+		System.out.println("test");
 		MyCalculator myCalcul = new MyCalculator();
 		assertEquals(30, myCalcul.add(20, 10));
 	}
@@ -17,5 +18,6 @@ public class MyCalculatorTest {
 	@Test public void testTestMethod() {
         MyCalculator classUnderTest = new MyCalculator();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someTestMethod());
+        
     }
 }
