@@ -10,7 +10,7 @@ public class MyCalculatorTest {
 	
 	@Test public void testAdd()
 	{
-		System.out.println("push to dev 1");
+		System.out.println("test4");
 		MyCalculator myCalcul = new MyCalculator();
 		assertEquals(30, myCalcul.add(20, 10));
 	}
