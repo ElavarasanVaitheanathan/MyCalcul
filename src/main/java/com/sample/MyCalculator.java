@@ -7,7 +7,7 @@ public class MyCalculator {
 	
 	
 	public int add (int firstNum, int secNum){
-		System.out.println("test1");
+		System.out.println("test2");
 		return firstNum + secNum ;
 	}
 	
